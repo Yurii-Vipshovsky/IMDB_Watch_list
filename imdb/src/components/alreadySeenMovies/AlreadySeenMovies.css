@@ -1,0 +1,24 @@
+ol {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vh;
+}
+
+.watched-movie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.watched-movie__title {
+  cursor: pointer;
+  width: 75%;
+}
+.watched-movie__delete {
+  cursor: pointer;
+}/*# sourceMappingURL=AlreadySeenMovies.css.map */

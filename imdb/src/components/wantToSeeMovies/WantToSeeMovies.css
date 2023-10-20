@@ -1,0 +1,18 @@
+.want-to-see-movie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.want-to-see-movie__title {
+  cursor: pointer;
+  width: 75%;
+}
+.want-to-see-movie__delete {
+  cursor: pointer;
+}/*# sourceMappingURL=WantToSeeMovies.css.map */

@@ -1,0 +1,50 @@
+.movie{
+    display: flex;
+    justify-content: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: large;
+    &__not-found{
+        color: #db1818;
+        font-size: xx-large;
+        margin-top: 25vh;
+    }
+    &__found{
+        display: flex;
+    }
+    &__title{
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    &__year{
+        font-size: larger;
+    }
+    &__genre{
+        margin-top: 5vh;
+    }
+    &__added{
+        border-bottom: 2px solid;
+        margin-left: 15px;
+        font-size: x-large;
+        font-style: italic;
+        display: inline;
+    }
+    .row{
+        align-items: center;
+    }
+    button{
+        margin-left: 15px;
+    }
+}  
+
+.modal-content {
+    position: absolute;
+    top: 19%;
+    left: 89%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(45, 240, 45, 0.3);
+  }

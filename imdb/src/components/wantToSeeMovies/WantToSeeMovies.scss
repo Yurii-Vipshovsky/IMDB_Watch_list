@@ -1,0 +1,12 @@
+.want-to-see-movie{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    &__title{
+        cursor: pointer;
+        width: 75%;
+    }    
+    &__delete{
+        cursor: pointer;
+    }
+}

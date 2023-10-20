@@ -1,0 +1,28 @@
+.navbar {
+    min-height: 85px;
+    &__movie-search{
+        display: flex;
+        button{
+            margin-left: 10px;
+        }
+    }
+    &__active{
+        border: 1px solid!important;
+        border-radius: 5px;
+        padding: 10px!important;
+        font-weight: bold!important;
+    }
+    a:hover{
+        transition: 0.3s;
+        color: #223bab!important;
+    }
+}
+
+.navbar-brand{
+    width: 65px;
+    height: 50px;
+    background-color: #d6b41c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

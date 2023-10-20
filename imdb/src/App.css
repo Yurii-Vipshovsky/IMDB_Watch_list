@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  background-image: url(./img/bg.jpg);
+  height: 100vh;
+}
+
+.greating-text{
+  font-size: xx-large;
+  font-weight: bold;
+  margin-top: 25vh;
+}
+

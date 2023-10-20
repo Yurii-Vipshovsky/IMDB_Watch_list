@@ -1,0 +1,60 @@
+.movie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: large;
+}
+.movie__not-found {
+  color: #db1818;
+  font-size: xx-large;
+  margin-top: 25vh;
+}
+.movie__found {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.movie__title {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.movie__year {
+  font-size: larger;
+}
+.movie__genre {
+  margin-top: 5vh;
+}
+.movie__added {
+  border-bottom: 2px solid;
+  margin-left: 15px;
+  font-size: x-large;
+  font-style: italic;
+  display: inline;
+}
+.movie .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.movie button {
+  margin-left: 15px;
+}
+
+.modal-content {
+  position: absolute;
+  top: 19%;
+  left: 89%;
+  width: 20%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px rgba(45, 240, 45, 0.3);
+          box-shadow: 0 0 10px rgba(45, 240, 45, 0.3);
+}/*# sourceMappingURL=FindMovie.css.map */
